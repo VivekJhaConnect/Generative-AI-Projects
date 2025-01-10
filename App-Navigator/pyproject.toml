@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "app" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+uvicorn = "^0.23.2"
+langserve = {extras = ["server"], version = ">=0.0.30"}
+pydantic = "<2"
+langchain-openai = "^0.1.10"
+langchain-community = "^0.2"
+sqlmodel = "^0.0.19"
+python-multipart = "^0.0.9"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+pgvector = "^0.3.0"
+unstructured = "^0.14.9"
+pdfminer = "^20191125"
+tavily-python = "^0.3.3"
+langfuse = "^2.37.0"
+psutil = "^6.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = ">=0.0.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
