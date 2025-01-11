@@ -1,0 +1,7 @@
+openai==0.28
+tiktoken
+chromadb
+langchain
+flask
+GitPython
+python-dotenv

@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "C:\\Users\\ADMIN\\Documents\\venv\\Scripts\\python.exe",
+    "jupyter.jupyterServerType": "local",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.notebookFileRoot": "${workspaceFolder}\\research"
+}
