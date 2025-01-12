@@ -1,6 +1,11 @@
 {
     "python.pythonPath": "C:\\Users\\ADMIN\\Documents\\venv\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\ADMIN\\Documents\\venv\\Scripts\\python.exe",
     "jupyter.jupyterServerType": "local",
     "jupyter.interactiveWindow.creationMode": "perFile",
-    "jupyter.notebookFileRoot": "${workspaceFolder}\\research"
+    "jupyter.notebookFileRoot": "${workspaceFolder}\\research", // Open multiple Jupyter windows if needed
+    "python.dataScience.jupyterCommandLineArguments": [
+        "--no-browser",
+        "--notebook-dir=${workspaceFolder}"
+    ]
 }
