@@ -1,11 +1,23 @@
+# Common Libraries
+langchain_community
 flask
 pypdf
 python-dotenv
 pinecone[grpc]
 langchain-pinecone
-langchain_community
 langchain_openai
 langchain_experimental
 -e .
 sentence-transformers
+
+# Chat with PDF
 pinecone
+
+# Chat with Website
+sentence_transformers
+tiktoken
+tokenizers
+faiss-cpu
+unstructured
+numpy==1.24.4
+nltk==3.9.1
